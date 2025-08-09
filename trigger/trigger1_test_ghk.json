@@ -1,0 +1,24 @@
+{
+	"name": "trigger1_test_ghk",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "test_pipeline_wait_mk_1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2025-08-09T07:37:00",
+				"timeZone": "Arabian Standard Time"
+			}
+		}
+	}
+}
