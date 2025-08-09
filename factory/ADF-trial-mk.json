@@ -1,0 +1,9 @@
+{
+	"name": "ADF-trial-mk",
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6022c396-92ee-4ad8-a2a1-2eab71c226f7",
+		"tenantId": "a0123ef8-d7ca-4f8d-82f3-bc5869acd47d"
+	}
+}
