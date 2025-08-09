@@ -2,7 +2,7 @@
 	"name": "trigger1_test_ghk",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
