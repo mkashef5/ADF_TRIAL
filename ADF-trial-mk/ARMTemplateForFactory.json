@@ -54,10 +54,18 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Hour",
+						"frequency": "Day",
 						"interval": 1,
 						"startTime": "2025-08-09T07:37:00",
-						"timeZone": "Arabian Standard Time"
+						"timeZone": "Arabian Standard Time",
+						"schedule": {
+							"minutes": [
+								30
+							],
+							"hours": [
+								13
+							]
+						}
 					}
 				}
 			},
