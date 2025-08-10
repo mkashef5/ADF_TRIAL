@@ -1,0 +1,27 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 3,
+				"startTime": "2025-08-10T07:49:00",
+				"timeZone": "Arabian Standard Time",
+				"schedule": {
+					"minutes": [
+						34,
+						59
+					],
+					"hours": [
+						14,
+						16
+					]
+				}
+			}
+		}
+	}
+}
